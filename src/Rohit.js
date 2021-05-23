@@ -29,8 +29,6 @@ function Rohit(props) {
                 return <li>{task}</li>
             })}
         </ul>
-
-
     </div>
   );
 }

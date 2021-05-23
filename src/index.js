@@ -4,11 +4,18 @@ import './index.css';
 import App from './App';
 import Rohit from './Rohit';
 import reportWebVitals from './reportWebVitals';
+import {FormDemo} from "./Components/FormDemo";
+import Imdb from "./Components/Imdb";
 
 const Name = 'Mohit'
 
 ReactDOM.render(
-    <Rohit name={Name} />,
+    <div>
+        {/*<Rohit name={Name} />*/}
+        {/*<FormDemo></FormDemo>*/}
+        <Imdb></Imdb>
+    </div>
+    ,
   document.getElementById('root')
 );
 
